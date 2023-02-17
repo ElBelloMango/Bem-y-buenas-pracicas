@@ -1,0 +1,15 @@
+.quienes{
+    padding: 3rem;
+    text-align: center;
+}
+.quienes__titulo{
+    font-family: 'Pacifico',cursive;
+    font-size: 3rem;
+    color: var(--texto-rojo);
+}
+.quienes__descripcion{
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: var(--texto-gris-claro);
+}

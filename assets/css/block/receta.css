@@ -1,0 +1,55 @@
+.receta {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+    width: 299px;
+    row-gap: 1rem;
+    background: rgb(255 255 255 / 57%);
+    box-shadow: 0 8px 20px 0 rgb(16 16 16 / 37%);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+.receta__imagen {
+    width: calc(300px + 1rem*2);
+    object-fit: cover;
+    transform: translate(calc(-1rem));
+    filter: contrast(0.9) blur(.6px);
+    border-top-left-radius: 10px;
+}
+
+.receta__titulo {
+    font-size: 1.1rem;
+}
+
+.receta__descripcion {
+    padding-bottom: 1.5rem;
+}
+
+.receta__boton {
+    outline: none;
+    width: 50%;
+    padding: .5rem .8rem;
+    border: 1px solid;
+    color: var(--background-claro);
+    background-color: var(--texto-rojo);
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+.receta__boton:hover{
+    background: none;
+    color: var(--texto-rojo);
+    border: 1px solid var(--texto-rojo);
+    cursor: pointer;
+}
+@media screen and (max-width:320px) {
+    .receta{
+        width: 288px;
+    }
+    .receta__imagen{
+        width: calc(288px + 1rem*2);
+    }
+}

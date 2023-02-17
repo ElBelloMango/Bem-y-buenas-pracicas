@@ -1,0 +1,34 @@
+.persona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    padding: 1rem;
+}
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.persona__imagen--roberta{
+    background-image: url(/assets/img/personas/andrea.jpg);
+}
+.persona__imagen--marcela{
+    background-image: url(/assets/img/personas/marcela.jpg);
+}
+.persona__imagen--andreia{
+    background-image: url(/assets/img/personas/roberta.jpg);
+}
+.persona__nombre{
+    font-family: 'Pacifico',cursive;
+    font-size: 2rem;
+    color: var(--texto-rojo);
+}
+
+.persona__funcion{
+    font-weight: 200;
+    color: var(--text-gris-claro);
+}

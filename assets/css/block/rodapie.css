@@ -1,0 +1,40 @@
+.rodapie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    background-color: var(--background-claro);
+    text-align: center;
+}
+.rodapie__titulo{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--texto-gris-claro);
+    font-weight: 100;
+}
+.rodapie__descripcion{
+    font-size: 1.6rem;
+    align-self: center;
+    color: var(--texto-gris-claro);
+}
+.rodapie__lista{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.rodapie__item{
+    width: 15rem;
+}
+.rodapie__icon{
+    width: 60px;
+    height: 60px;
+}
+@media screen and (max-width:435px) {
+    .rodapie{
+        gap: 1rem;
+    }
+    .rodapie__descripcion{
+        margin: 0;
+    }
+}

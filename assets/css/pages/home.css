@@ -1,0 +1,22 @@
+@import url(../block/header.css);
+@import url(../block/banner.css);
+@import url(../block/sobre.css);
+@import url(../block/recetas.css);
+@import url(../block/receta.css);
+@import url(../block/quienes.css);
+@import url(../block/personas.css);
+@import url(../block/persona.css);
+@import url(../block/rodapie.css);
+:root{
+    --background-claro: #f9f9f9;
+    --texto-gris-claro: #808080;
+    --texto-gris-oscuro: #333;
+    --texto-rojo:#DA2b1f;
+    --background-cafe: rgba(218,185,141,.7);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth !important;
+}

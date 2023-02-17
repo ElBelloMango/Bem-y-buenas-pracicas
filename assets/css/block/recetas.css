@@ -1,0 +1,10 @@
+.recetas{
+    background: var(--background-cafe);
+}
+.recetas__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 3rem;
+}
